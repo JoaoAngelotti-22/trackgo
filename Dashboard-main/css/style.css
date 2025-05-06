@@ -2621,3 +2621,71 @@ main .projects-box .projects-box-section2 table tr td a.rejected {
 .main-content .plans-boxes .plan-box ul li:last-child p {
   color: var(--third-color);
 }
+
+.courses-boxes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.courses-box {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.cadastro-veiculo h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.form-cad-veiculo {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group-veiculo {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group-veiculo label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #444;
+}
+
+.form-group-veiculo input,
+.form-group-veiculo select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.form-group-veiculo {
+  margin-top: 20px;
+}
+
+.form-group-veiculo button {
+  width: 100%;
+  padding: 12px;
+  background-color: #47be5e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-group-veiculo button:hover {
+  background-color: #1eb13b;
+}
